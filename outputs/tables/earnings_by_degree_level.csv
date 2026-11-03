@@ -1,0 +1,4 @@
+degree_level,degree,year1_earnings_count,year1_earnings_median,year1_earnings_mean,year10_earnings_count,year10_earnings_median,year10_earnings_mean
+1,Bachelor's,20,39978.0,49925.0,20,87300.0,92672.0
+2,Master's,15,80181.0,74400.0,16,100636.0,111434.0
+3,PhD,13,80781.0,93580.0,13,128416.0,138904.0

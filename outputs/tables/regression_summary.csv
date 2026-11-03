@@ -1,0 +1,3 @@
+model,n,r_squared,adj_r_squared,degree_level_coef,degree_level_p,model_f_p
+Degree level only,49,0.2655,0.2499,22805.0893,0.0002,0.0002
+Degree level + major fixed effects,49,0.8472,0.738,18875.5455,0.0,0.0

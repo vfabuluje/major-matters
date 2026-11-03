@@ -1,0 +1,21 @@
+major,year1_bachelors,year10_bachelors,year1_masters,year10_masters,year1_phd,year10_phd,masters_pct_gain,phd_pct_gain
+Accounting,60205,123299,,,,,,
+Agriculture,38355,64718,,,,,,
+Animal Science,36379,77511,,,,,,
+Architecture,56196,91718,,,,,,
+Astronomy,38202,107201,,,,,,
+Civil Engineering,67606,108273,,,,,,
+Computer Science,63950,111513,,,,,,
+Criminal Justice,36579,73642,,,,,,
+Economics,55787,121997,,,,,,
+Education,41602,67304,66289,87952,80781,109949,30.7,63.4
+Electrical Engineering,74923,121992,,,,,,
+Fine Arts,30878,61630,,,,,,
+HDFS,33257,55726,,,,,,
+History,33037,71649,,86367,51851,82300,20.5,14.9
+Homeland Security,38940,76483,67088,86367,,,12.9,
+Journalism,38008,79297,,,,,,
+Mechanical Engineering,74866,121955,,,,,,
+Nursing,76625,100015,,,,,,
+Philosophy,32792,82883,,,,,,
+Psychology,34421,70260,,,,,,

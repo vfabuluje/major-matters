@@ -1,0 +1,50 @@
+major,degree,degree_level,year1_earnings,year10_earnings
+Homeland Security,Bachelor's,1,74826,140862
+Homeland Security,Master's,2,67088,86367
+Accounting,Bachelor's,1,60205,123299
+Accounting,Master's,2,102332,158488
+Accounting,PhD,3,182036,190414
+Economics,Bachelor's,1,55787,121997
+Economics,Master's,2,89811,107365
+Economics,PhD,3,78429,106080
+Electrical Engineering,Bachelor's,1,74923,121992
+Electrical Engineering,Master's,2,92058,142490
+Electrical Engineering,PhD,3,101229,161582
+Mechanical Engineering,Bachelor's,1,74866,121955
+Mechanical Engineering,Master's,2,92058,142490
+Mechanical Engineering,PhD,3,101229,161582
+Computer Science,Bachelor's,1,63950,111513
+Computer Science,Master's,2,106080,163139
+Computer Science,PhD,3,137998,230831
+Civil Engineering,Bachelor's,1,67606,108273
+Civil Engineering,Master's,2,92058,142490
+Civil Engineering,PhD,3,101229,161582
+Astronomy,Bachelor's,1,38202,107201
+Astronomy,Master's,2,80929,122216
+Astronomy,PhD,3,72210,135230
+Nursing,Bachelor's,1,76625,100015
+Nursing,Master's,2,80181,111023
+Nursing,PhD,3,98712,128416
+Architecture,Bachelor's,1,56196,91718
+Architecture,Master's,2,55817,89458
+Philosophy,Bachelor's,1,32792,82883
+Journalism,Bachelor's,1,38008,79297
+Journalism,Master's,2,48829,92726
+Journalism,PhD,3,74301,103464
+Animal Science,Bachelor's,1,36379,77511
+Criminal Justice,Bachelor's,1,36579,73642
+History,Bachelor's,1,33037,71649
+History,Master's,2,,86367
+History,PhD,3,51851,82300
+Psychology,Bachelor's,1,34421,70260
+Psychology,Master's,2,51770,90481
+Psychology,PhD,3,68291,109828
+Education,Bachelor's,1,41602,67304
+Education,Master's,2,66289,87952
+Education,PhD,3,80781,109949
+Agriculture,Bachelor's,1,38355,64718
+Fine Arts,Bachelor's,1,30878,61630
+Fine Arts,Master's,2,37592,65986
+HDFS,Bachelor's,1,33257,55726
+HDFS,Master's,2,53107,93908
+HDFS,PhD,3,68249,124500

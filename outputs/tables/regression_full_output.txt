@@ -1,0 +1,73 @@
+MODEL 1: year10_earnings ~ degree_level
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        year10_earnings   R-squared:                       0.266
+Model:                            OLS   Adj. R-squared:                  0.250
+Method:                 Least Squares   F-statistic:                     16.99
+Date:                Mon, 02 Nov 2026   Prob (F-statistic):           0.000151
+Time:                        20:46:07   Log-Likelihood:                -575.72
+No. Observations:                  49   AIC:                             1155.
+Df Residuals:                      47   BIC:                             1159.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept     6.871e+04   1.12e+04      6.132      0.000    4.62e+04    9.13e+04
+degree_level  2.281e+04   5532.365      4.122      0.000    1.17e+04    3.39e+04
+==============================================================================
+Omnibus:                        4.002   Durbin-Watson:                   0.651
+Prob(Omnibus):                  0.135   Jarque-Bera (JB):                3.395
+Skew:                           0.644   Prob(JB):                        0.183
+Kurtosis:                       3.050   Cond. No.                         6.15
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+
+MODEL 2: year10_earnings ~ degree_level + C(major)
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        year10_earnings   R-squared:                       0.847
+Model:                            OLS   Adj. R-squared:                  0.738
+Method:                 Least Squares   F-statistic:                     7.760
+Date:                Mon, 02 Nov 2026   Prob (F-statistic):           7.79e-07
+Time:                        20:46:07   Log-Likelihood:                -537.26
+No. Observations:                  49   AIC:                             1117.
+Df Residuals:                      28   BIC:                             1156.
+Df Model:                          20                                         
+Covariance Type:            nonrobust                                         
+======================================================================================================
+                                         coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------
+Intercept                           1.196e+05   1.28e+04      9.349      0.000    9.34e+04    1.46e+05
+C(major)[T.Agriculture]            -7.381e+04   2.16e+04     -3.410      0.002   -1.18e+05   -2.95e+04
+C(major)[T.Animal Science]         -6.101e+04   2.16e+04     -2.819      0.009   -1.05e+05   -1.67e+04
+C(major)[T.Architecture]           -5.737e+04    1.7e+04     -3.380      0.002   -9.21e+04   -2.26e+04
+C(major)[T.Astronomy]              -3.585e+04   1.51e+04     -2.374      0.025   -6.68e+04   -4916.590
+C(major)[T.Civil Engineering]      -1.995e+04   1.51e+04     -1.321      0.197   -5.09e+04     1.1e+04
+C(major)[T.Computer Science]        1.109e+04   1.51e+04      0.735      0.469   -1.98e+04     4.2e+04
+C(major)[T.Criminal Justice]       -6.488e+04   2.16e+04     -2.997      0.006   -1.09e+05   -2.05e+04
+C(major)[T.Economics]              -4.559e+04   1.51e+04     -3.019      0.005   -7.65e+04   -1.47e+04
+C(major)[T.Education]                -6.9e+04   1.51e+04     -4.569      0.000   -9.99e+04   -3.81e+04
+C(major)[T.Electrical Engineering] -1.538e+04   1.51e+04     -1.018      0.317   -4.63e+04    1.56e+04
+C(major)[T.Fine Arts]              -8.415e+04    1.7e+04     -4.957      0.000   -1.19e+05   -4.94e+04
+C(major)[T.HDFS]                   -6.602e+04   1.51e+04     -4.372      0.000    -9.7e+04   -3.51e+04
+C(major)[T.History]                 -7.73e+04   1.51e+04     -5.118      0.000   -1.08e+05   -4.64e+04
+C(major)[T.Homeland Security]      -3.435e+04    1.7e+04     -2.023      0.053   -6.91e+04     426.173
+C(major)[T.Journalism]             -6.557e+04   1.51e+04     -4.342      0.000   -9.65e+04   -3.46e+04
+C(major)[T.Mechanical Engineering] -1.539e+04   1.51e+04     -1.019      0.317   -4.63e+04    1.55e+04
+C(major)[T.Nursing]                -4.425e+04   1.51e+04     -2.930      0.007   -7.52e+04   -1.33e+04
+C(major)[T.Philosophy]             -5.564e+04   2.16e+04     -2.570      0.016      -1e+05   -1.13e+04
+C(major)[T.Psychology]             -6.721e+04   1.51e+04     -4.450      0.000   -9.81e+04   -3.63e+04
+degree_level                        1.888e+04   3527.033      5.352      0.000    1.17e+04    2.61e+04
+==============================================================================
+Omnibus:                        8.283   Durbin-Watson:                   2.052
+Prob(Omnibus):                  0.016   Jarque-Bera (JB):               15.644
+Skew:                           0.220   Prob(JB):                     0.000401
+Kurtosis:                       5.733   Cond. No.                         42.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
