@@ -2,7 +2,7 @@
 
 Analysis of U.S. Census Bureau **Post-Secondary Employment Outcomes (PSEO)** data for Pennsylvania institutions. It asks whether the level of degree (Bachelor's, Master's or PhD) predicts graduate earnings, and how much the choice of major matters.
 
-Group project for DA 101 (Intro to Data Analytics) at Penn State Harrisburg, Spring 2026. Structured with the **SOAR** model (Specify, Obtain, Analyze, Report). Written for high school and undecided college students choosing a major.
+Structured with the **SOAR** model (Specify, Obtain, Analyze, Report). Written for high school and undecided college students choosing a major.
 
 [Slide deck (PDF)](docs/final_presentation.pdf) · [Final report (PDF)](docs/final_report.pdf)
 
@@ -82,10 +82,4 @@ python src/analysis.py
 
 Python (pandas, statsmodels, matplotlib), SQL, Excel (Data Analysis ToolPak regression), PowerPoint
 
-## Team
 
-DA 101 Group 7, Penn State Harrisburg: **Victor Fabuluje**, Amy, Sebastian and Ilianna.
-
-**My role (Victor):** data collection and cleaning. I wrote the SQL that filtered the PSEO dataset down to the 20 majors, pulled the Year 1 and Year 10 median earnings, and reshaped the data for comparison across degree levels. I also handled inconsistent major labels between degree levels. In the presentation I covered Computer Science, Civil, Mechanical and Electrical Engineering, and Journalism, and I co-wrote the data and methodology section of the report.
-
-The Python script and charts in `src/` and `outputs/` were added after the course, to make the analysis reproducible outside Excel.
