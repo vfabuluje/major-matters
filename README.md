@@ -1,4 +1,4 @@
-# Does Education Level Predict Earnings? — PSEO Analysis (Pennsylvania)
+# Major Matters: Does Education Level Predict Earnings? (PSEO Analysis, Pennsylvania)
 
 Analysis of U.S. Census Bureau **Post-Secondary Employment Outcomes (PSEO)** data for Pennsylvania institutions. It asks whether the level of degree (Bachelor's, Master's or PhD) predicts graduate earnings, and how much the choice of major matters.
 
